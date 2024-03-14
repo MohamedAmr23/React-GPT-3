@@ -1,0 +1,31 @@
+.container-blog{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+}
+.container-blog .heading-blog{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.container-blog h1{
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+.container-blog .box-blog{
+    display: flex;
+    flex-direction: row;
+}
+.container-blog .box-blog .groupA{
+    flex: 0.75;
+    margin-right: 2rem;
+}
+.container-blog .box-blog .groupB{
+    flex: 1;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}

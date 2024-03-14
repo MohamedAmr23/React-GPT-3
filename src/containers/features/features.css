@@ -1,0 +1,40 @@
+.container-features{
+   margin-top: 50px;
+   color: #fff;
+   width: 80%;
+   margin: auto;
+   display: grid;
+   grid-template-columns:repeat(auto-fit,minmax(330px,1fr)) ;
+   gap: 10px;
+   font-family: var(--font-family);
+   margin-top: 200px;
+}
+.container-features .box1{
+ width: 70%;
+}
+.container-features .box1 p{
+    margin-top: 40px;
+    color: var(--color-subtext);
+}
+.container-features .box2 h3{
+    position: relative;
+    margin-bottom: 90px;
+    width: 37%;
+}
+.container-features .box2 h3::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -10px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);;
+    width: 35px;
+    height: 4px;
+}
+.container-features .box3{
+    margin-top: -10px;
+}
+.container-features .box3 p{
+    margin-bottom: 90px;
+    color: #ccc;
+    width: 86%;
+}
